@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["esnext", "dom"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "strict": true,
+
+    "module": "node16",
+    "moduleResolution": "node16",
+
+    "rootDir": "src",
+    "outDir": "dist",
+    "noEmit": false,
+
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "incremental": true,
+    "isolatedModules": false,
+
+    "paths": {
+      "@ig/*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}

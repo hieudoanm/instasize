@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Instagram Image Downloader",
+  "version": "0.1",
+  "description": "Download Instagram images by clicking on them",
+  "permissions": ["downloads", "activeTab", "*://www.instagram.com/*"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.instagram.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": { "id": "{a9d72c45-5878-43ba-b4a2-90bad3ad1b77}" }
+  }
+}
