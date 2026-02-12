@@ -12,7 +12,7 @@
     "lint:fix": "eslint . --ext .ts --fix",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "prepare": "puppeteer browsers install firefox"
+    "prepare": "puppeteer install firefox"
   },
   "keywords": [],
   "author": "",
