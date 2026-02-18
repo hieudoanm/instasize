@@ -20,7 +20,7 @@
   "packageManager": "pnpm@10.30.0",
   "dependencies": {
     "express": "5.2.1",
-    "puppeteer": "24.37.3"
+    "puppeteer": "24.37.4"
   },
   "devDependencies": {
     "@eslint/js": "10.0.1",
