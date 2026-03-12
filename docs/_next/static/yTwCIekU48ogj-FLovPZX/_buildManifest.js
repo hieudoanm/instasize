@@ -1,18 +1,21 @@
 self.__BUILD_MANIFEST = {
   "/": [
-    "static/chunks/91b26b58110d2767.js"
+    "static/chunks/2b4f0ae75de8ff69.js"
   ],
   "/_error": [
-    "static/chunks/decf3fa0d75c3711.js"
+    "static/chunks/dd8818e9e81da5dd.js"
   ],
   "/filter": [
-    "static/chunks/5d261aa554d65459.js"
+    "static/chunks/e234d9b8640cc1cd.js"
   ],
   "/ocr": [
-    "static/chunks/935845610438fc7d.js"
+    "static/chunks/c6c453f282cfeac2.js"
   ],
   "/size": [
-    "static/chunks/256e2478673a2aff.js"
+    "static/chunks/1872c79d99605794.js"
+  ],
+  "/version": [
+    "static/chunks/91c066c73be07c0d.js"
   ],
   "__rewrites": {
     "afterFiles": [],
@@ -25,6 +28,7 @@ self.__BUILD_MANIFEST = {
     "/_error",
     "/filter",
     "/ocr",
-    "/size"
+    "/size",
+    "/version"
   ]
 };self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
