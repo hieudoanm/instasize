@@ -13,7 +13,6 @@ const HomePage: NextPage = () => {
           <div className="flex flex-col gap-4">
             {[
               { id: 'filter', href: '/filter', name: 'Filter' },
-              { id: 'ocr', href: '/ocr', name: 'OCR' },
               { id: 'size', href: '/size', name: 'Size' },
             ].map(({ id, href, name }) => {
               return (

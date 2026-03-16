@@ -12,7 +12,6 @@ export const Navbar: FC = () => {
         <div className="hidden space-x-4 lg:flex">
           {[
             { id: 'filter', href: '/filter', name: 'Filter' },
-            { id: 'ocr', href: '/ocr', name: 'OCR' },
             { id: 'size', href: '/size', name: 'Size' },
           ].map(({ id, href, name }) => {
             return (
