@@ -1,17 +1,17 @@
 {
-  "name": "@ig/workspaces",
+  "name": "@instasize/workspaces",
   "version": "0.0.1",
-  "description": "ig",
+  "description": "instasize",
   "keywords": [
-    "ig"
+    "instasize"
   ],
-  "homepage": "https://hieudoanm.github.io/ig",
+  "homepage": "https://hieudoanm.github.io/instasize",
   "bugs": {
-    "url": "https://github.com/hieudoanm/ig/issues"
+    "url": "https://github.com/hieudoanm/instasize/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/hieudoanm/ig.git"
+    "url": "git+ssh://git@github.com/hieudoanm/instasize.git"
   },
   "license": "GPL-3.0",
   "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",

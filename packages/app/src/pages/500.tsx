@@ -1,4 +1,4 @@
-import { ErrorTemplate } from '@ig/templates/ErrorTemplate';
+import { ErrorTemplate } from '@instasize/templates/ErrorTemplate';
 import { NextPage } from 'next';
 
 const messages = [

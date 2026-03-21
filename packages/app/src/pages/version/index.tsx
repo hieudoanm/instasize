@@ -1,5 +1,5 @@
+import { VersionTemplate } from '@instasize/templates/VersionTemplate';
 import { GetStaticProps, NextPage } from 'next';
-import { VersionTemplate } from '@ig/templates/VersionTemplate';
 
 type Props = {
   version: string;

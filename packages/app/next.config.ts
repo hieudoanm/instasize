@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
   reactCompiler: true,
   reactStrictMode: true,
   images: { unoptimized: true },
-  basePath: NODE_ENV === 'development' ? '' : '/ig',
+  basePath: NODE_ENV === 'development' ? '' : '/instasize',
   output: NODE_ENV === 'development' ? 'standalone' : 'export',
   distDir: NODE_ENV === 'development' ? '.next' : '../../docs',
 };

@@ -1,4 +1,7 @@
-import { LandingContent, LandingTemplate } from '@ig/templates/LandingTemplate';
+import {
+  LandingContent,
+  LandingTemplate,
+} from '@instasize/templates/LandingTemplate';
 import { NextPage } from 'next';
 
 const content: LandingContent = {
