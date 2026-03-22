@@ -5,8 +5,8 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
-	"ig-cli/utils/figlet"
-	"ig-cli/utils/http"
+	"github.com/hieudoanm/instasize/src/utils/figlet"
+	"github.com/hieudoanm/instasize/src/utils/http"
 	"os"
 	"regexp"
 
@@ -21,13 +21,10 @@ type DownloadResponse struct {
 // instagramDownloadCmd represents the instagramDownload command
 var instagramDownloadCmd = &cobra.Command{
 	Use:   "download",
-	Short: "A brief description of your command",
-	Long: `A longer description that spans multiple lines and likely contains examples
-and usage of using your command. For example:
+	Short: "Run the download operation for the instasize app",
+	Long:  `The download command is a specific utility to execute operations related to download within the instasize application.
 
-Cobra is a CLI library for Go that empowers applications.
-This application is a tool to generate the needed files
-to quickly create a Cobra application.`,
+As a component of the utilities tools, this command empowers you to interact directly with instasize's download features via the CLI.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		figlet.LogProgramName()
 		// Get URL
