@@ -1,7 +1,7 @@
 .PHONY: lint format build install all
 
 BIN_DIR := bin
-BIN_NAME := ig
+BIN_NAME := instasize
 SRC := ./main.go
 
 VERSION := $(shell date +%Y.%m.%d.%H.%M.%S)

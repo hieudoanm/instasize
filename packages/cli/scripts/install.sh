@@ -3,8 +3,8 @@
 # Exit immediately if a command exits with a non-zero status
 set -e
 
-BIN_NAME="ig"
-REPO_URL="https://github.com/hieudoanm/instasize/raw/refs/heads/master/packages/cli/bin/ig"
+BIN_NAME="instasize"
+REPO_URL="https://github.com/hieudoanm/instasize/raw/refs/heads/master/packages/cli/bin/instasize"
 INSTALL_DIR="/usr/local/bin"
 
 echo "Downloading $BIN_NAME..."
