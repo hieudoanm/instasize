@@ -1,6 +1,6 @@
 module github.com/hieudoanm/instasize
 
-go 1.26.1
+go 1.26.2
 
 require (
 	github.com/mbndr/figlet4go v0.0.0-20190224160619-d6cef5b186ea
