@@ -33,9 +33,9 @@
     "build:desktop": "tauri build"
   },
   "dependencies": {
-    "@capacitor/android": "8.3.3",
-    "@capacitor/core": "8.3.3",
-    "@capacitor/ios": "8.3.3",
+    "@capacitor/android": "8.3.4",
+    "@capacitor/core": "8.3.4",
+    "@capacitor/ios": "8.3.4",
     "@silvia-odwyer/photon": "0.3.3",
     "@tanstack/react-query": "5.100.10",
     "@tauri-apps/api": "2.11.0",
@@ -44,7 +44,7 @@
     "react-dom": "19.2.6"
   },
   "devDependencies": {
-    "@capacitor/cli": "8.3.3",
+    "@capacitor/cli": "8.3.4",
     "@tailwindcss/postcss": "4.3.0",
     "@tauri-apps/cli": "2.11.1",
     "@testing-library/jest-dom": "6.9.1",
