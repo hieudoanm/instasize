@@ -16,7 +16,7 @@
   "keywords": [],
   "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
   "license": "GPL-3.0",
-  "packageManager": "pnpm@11.0.9",
+  "packageManager": "pnpm@11.1.1",
   "engines": {
     "node": "25.9.0"
   },
